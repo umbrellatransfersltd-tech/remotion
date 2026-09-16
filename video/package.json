@@ -7,10 +7,12 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.525",
+    "@remotion/fonts": "^4.0.525",
+    "@remotion/media-parser": "^4.0.525",
+    "@remotion/tailwind-v4": "4.0.525",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.525",
-    "@remotion/tailwind-v4": "4.0.525",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -26,7 +28,7 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
-    "render": "remotion render MyComp out/video.mp4"
+    "render": "remotion render ViralEdit out/viral.mp4 --crf=18"
   },
   "sideEffects": [
     "*.css"
